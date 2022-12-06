@@ -1,6 +1,6 @@
 public class Example2 {
     public static void main(String[] args) {
-        myMethod ("John");
+        myMethod ("John"); // John and Joe are the arguments
         myMethod ("Joe");
 
 
@@ -9,7 +9,7 @@ public class Example2 {
     }
 
     // create new method to put the first name
-    static void myMethod (String firstName) {
+    static void myMethod (String firstName) { // firstname is the parameter
 
         System.out.println( firstName + " Doe");
     }

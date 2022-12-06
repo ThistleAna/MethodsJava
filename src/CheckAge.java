@@ -15,5 +15,6 @@ public class CheckAge {
     checkAge(20);
     checkAge(18);
     checkAge(12);
+    // extension pass on age = 20, 17, 35
     }
 }
