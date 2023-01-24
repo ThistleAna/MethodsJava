@@ -1,16 +1,16 @@
 public class plusMethod {
-    static int plusMethod(int x, int y) { // plusMethod() passing int arguments x and y
+    public static int plusMethod(int x, int y) { // plusMethod() passing int arguments x and y
 
         return x + y; // pass on x and y with integer values
     }
 
-    static double plusMethod (double x, double y) { // plusMethod() passing double arguments x and y
+    public static double plusMethod (double x, double y) { // plusMethod() passing double arguments x and y
 
         return x+y;
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // main method
         int result1 = plusMethod (4, 9);  // 4+9 = 13
         int result2 = plusMethod (25, 90); // 25 + 90 = 115
         double result3 = plusMethod (12.6, 34.6); // 12.6 + 34.6 = 47.2

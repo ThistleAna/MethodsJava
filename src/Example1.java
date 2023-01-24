@@ -6,7 +6,7 @@ public class Example1 {
         myMethod();
     }
 
-    static void myMethod() { // programmer defined method
+    public static void myMethod() { // programmer defined method
         //method = a block of code that is executed whenever it is called upon
         System.out.println("I just got executed!");
     }
